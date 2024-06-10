@@ -7,7 +7,7 @@ use kong::{server, ErrorResponse, Kong, Kontrol, Method};
 use postgres::Client as PgClient;
 use std::sync::{Arc, Mutex};
 
-/// ✨ Get income statements kontroller
+/// Get income statements kontroller
 pub struct GetIncomeStatementsKontroller {
     /// Address to kontroller
     pub address: String,
